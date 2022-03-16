@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Socotra Island, Yemen"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/socotra_island" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Separated from mainland Africa more than six million years ago, this remote island looks like the set of a sci-fi film. Socotra’s incredible and unique biodiversity means that there are plants and trees here not found anywhere else in the world – particularly bizarre are the ancient and twisted dragon’s blood tree and the bulbous bottle tree. Definitely one of the most unique places to visit in the world!"
+        android:textSize="16sp" />
+</LinearLayout>
